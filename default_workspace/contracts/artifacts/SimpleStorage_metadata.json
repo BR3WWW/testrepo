@@ -87,7 +87,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleStorage.sol": "SimpleStorage"
+			"default_workspace/contracts/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -101,12 +101,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x27c226ab7aa49e49e89e50057e229a1665114364fc0a38c440432e340fcd19a1",
-			"license": "MIT",
+		"default_workspace/contracts/SimpleStorage.sol": {
+			"keccak256": "0xfe2e6fe626d807bbc43778bb1a6c8f17c96ea47ab8063ecf017ad3b46d99acbd",
+			"license": "MIT Test",
 			"urls": [
-				"bzz-raw://e81217011df1e3adc20784235c19f362f8a01d33c0182b6d95c956542795b24d",
-				"dweb:/ipfs/QmaddZM7anF2UDMf8fVg53TaP2B8HVViwqSpnhCkhLVJBk"
+				"bzz-raw://0ca60ae95ab69492c801aa007bb25fa1d36244813d9f00d122419486c800ee8e",
+				"dweb:/ipfs/Qmbr5eUZHthX9SJ5iY74dJUj2LHHibZnsFddtWYoRwaQ8d"
 			]
 		}
 	},
