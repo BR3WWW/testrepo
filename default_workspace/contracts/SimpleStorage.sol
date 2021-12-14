@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT Test
+// SPDX-License-Identifier: MIT Test2
 pragma solidity ^0.8.0;
 
 contract SimpleStorage {
