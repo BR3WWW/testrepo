@@ -24,6 +24,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -83,6 +90,62 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_favoriteNumber",
 						"type": "uint256"
 					}
@@ -106,7 +169,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"default_workspace/contracts/SimpleStorage.sol": "SimpleStorage"
+			"default_workspace/contracts/StorageFactory.sol": "StorageFactory"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -126,6 +189,14 @@
 			"urls": [
 				"bzz-raw://bdcf2258dbd852da7b0608afa8202d66df2405a013301183d3e03a51dd1b5a8d",
 				"dweb:/ipfs/QmPzJXWxPHVYykA4b8suo5xPnaEWftayaQFhde2LFwFArh"
+			]
+		},
+		"default_workspace/contracts/StorageFactory.sol": {
+			"keccak256": "0x3857bd8c37667e241432994ea974513bfd3720db8eab0fa9e89c2bc5ad5a56b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0f5d785ddbdecd2fb1526ebd09ef83dd08131fcd9cbe1af098cfd301c4321efa",
+				"dweb:/ipfs/QmejbTkHb8Kr8tm5rxXQPRAPqAbEH3PsFqqUBmJfGMoYHF"
 			]
 		}
 	},
