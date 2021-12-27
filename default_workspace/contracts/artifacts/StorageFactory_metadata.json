@@ -192,11 +192,11 @@
 			]
 		},
 		"default_workspace/contracts/StorageFactory.sol": {
-			"keccak256": "0x3857bd8c37667e241432994ea974513bfd3720db8eab0fa9e89c2bc5ad5a56b8",
+			"keccak256": "0xf6807bf374196e4d5c71f900d799a7a0f9ab1ddf86bd24c34b339487ed4bcef9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0f5d785ddbdecd2fb1526ebd09ef83dd08131fcd9cbe1af098cfd301c4321efa",
-				"dweb:/ipfs/QmejbTkHb8Kr8tm5rxXQPRAPqAbEH3PsFqqUBmJfGMoYHF"
+				"bzz-raw://49c85c87ebd92088490b16decace85932607c80d2d348280b4b3c46cfbb7fb82",
+				"dweb:/ipfs/QmTq45fCo9oYwuP4oK2FRF4Dv2ExD2eFXtGtC2gP4FXfgT"
 			]
 		}
 	},
